@@ -1,0 +1,12 @@
+# MongoDB connection details
+mongodb:
+  # Connection string uri for MongoDB
+  # See https://docs.mongodb.org/manual/reference/connection-string/
+  uri: 'mongodb://127.0.0.1'
+
+  # Database name
+  database: mongowg
+
+  # Using oplog to apply database changes live
+  # Make sure that MongoDB is started with replication option --master. Otherwise the oplog won't work.
+  use_oplog: false

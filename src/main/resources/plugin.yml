@@ -1,0 +1,7 @@
+name: MongoWG
+description: MongoDB with WorldGuard, updated and maintained by Wizard.
+version: ${project.version}
+main: de.maxikg.mongowg.MongoWGPlugin
+api-version: 1.13
+author: maxikg
+depend: [ WorldGuard ]
